@@ -456,6 +456,10 @@ text-transform: uppercase;
 .footer-margin{
     margin-top: 10px;
 }
+.footer-address-position{
+    width: 230px;
+    margin-right: 70px;
+}
 /*=================/TEXT=================*/
 
 
