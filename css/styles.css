@@ -48,10 +48,7 @@ body {
     color: var(--primary-text-color);
     font-family: 'Roboto', sans-serif;
 }
-.link-potfolio,
-.link-potfolio:focus,
-.link-potfolio:active,
-.link-potfolio:hover{
+.link-portfolio{
     text-decoration: none;
     color: var(--primary-text-color);
 }
@@ -71,10 +68,14 @@ body {
 .number{
     padding-top: 32px;
     padding-bottom: 32px;
+    display: flex;
+    align-items: center;
 }
 .header-mail{
     padding-top: 32px;
     padding-bottom: 32px;
+    display: flex;
+    align-items: center;
 }
 
 .studio{
@@ -99,7 +100,7 @@ span{
     color: var(--accent-color);
 }
 .feedback{
-    color: var(--feedback-color);
+    color: rgba(255, 255, 255, 0.6);
 }
 .header-container{
     display: flex;
@@ -148,6 +149,7 @@ span{
      border-radius: 0px 0px 4px 4px;
      margin-top: 30px;
      margin-left: 30px;
+     background-color: var(--text-color);
 }
 .main-section{
     justify-content:center;
@@ -259,7 +261,6 @@ margin-bottom: 0;
     padding-top: 94px;
     padding-bottom: 94px;
     background-color: var(--background-buttons-color);
-    margin-bottom: 94px;
 }
 .team{
     
@@ -384,6 +385,7 @@ margin-top: 30px;
 margin-right: 10px;
 }
 .company{
+    padding-top: 94px; 
     padding-bottom: 94px;
     padding-left: 0;
     padding-right: 0;
@@ -411,12 +413,9 @@ margin-right: 10px;
     border-width: 1px;
     border-color: var(--social-color);
 }
-.company-width{
-    display: flex;
-    justify-content: space-between;
-}
 .footer-position{
     display: flex;
+    align-items: baseline;
 }
 .workers-social-footer{
     display: flex;
@@ -453,12 +452,17 @@ text-transform: uppercase;
 .workers-link-footer:hover{
     background-color: var(--accent-color);
 }
-.footer-margin{
-    margin-top: 10px;
-}
 .footer-address-position{
     width: 230px;
     margin-right: 70px;
+}
+.company-style{
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+}
+.company-margin:not(:last-child){
+margin-right: 30px;
 }
 /*=================/TEXT=================*/
 
@@ -557,10 +561,17 @@ letter-spacing: 0.03em;
 color: var(--feedback-color);
 margin-bottom: 0;
 margin-top: 0;
-}.employees-card-portfolio{
+}
+.employees-card-portfolio{
     margin-top: 30px;
     margin-left: 30px;
 } 
+.employees-card-portfolio:focus,
+.employees-card-portfolio:hover{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+    0px 4px 4px rgba(0, 0, 0, 0.06),
+     1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .portfolio-background{
     padding-top: 94px;
     padding-bottom: 94px;
