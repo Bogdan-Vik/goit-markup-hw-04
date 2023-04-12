@@ -48,10 +48,6 @@ body {
     color: var(--primary-text-color);
     font-family: 'Roboto', sans-serif;
 }
-.link-portfolio{
-    text-decoration: none;
-    color: var(--primary-text-color);
-}
 .feedback-adress{
     color: var(--text-color);
     font-style: normal;
@@ -405,10 +401,8 @@ margin-right: 10px;
     display: flex;
     width: 170px;
     height: 92px;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    justify-content: center;
+    align-items: center;
     fill: var(--social-color);
     border-radius: 4px ;
     border-style: solid;
@@ -577,5 +571,10 @@ margin-top: 0;
 .portfolio-background{
     padding-top: 94px;
     padding-bottom: 94px;
+}
+.link-portfolio{
+    text-decoration: none;
+    color: var(--primary-text-color);
+    
 }
 /*=================/PORTFOLIO================*/
